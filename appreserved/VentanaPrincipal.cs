@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace appreserved
 {
-    public partial class Form1 : Form
+    public partial class VentanaPrincipal : Form
     {
-        public Form1()
+        public VentanaPrincipal()
         {
             InitializeComponent();
         }
@@ -24,7 +24,12 @@ namespace appreserved
 
         private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            AcceptRejectRule acceptRejectRule = new AcceptRejectRule();
+          
+        }
+
+        private void VentanaPrincipal_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
